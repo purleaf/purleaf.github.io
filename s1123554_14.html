@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Headings</title>
+    <style>
+        
+        body {
+            font-family: "Times New Roman", Times, serif;
+            margin: 20px;
+        }
+
+        
+        .heading1-container {
+            position: relative;
+            display: inline-block;
+            fon
+            margin-bottom: 20px;
+        }
+
+        .line {
+            height: 4px;
+            background-color: black;
+            width: 100%;
+            box-shadow: 4px 4px 0 #ffb6c1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        
+        .heading1 {
+            font-size: 48px;
+            font-weight: bold;
+            color: black;
+            text-shadow: 4px 4px 0 #ffb6c1;
+            margin: 10px 0 0 0;
+            position: relative;
+            padding-top: 10px;
+        }
+
+        .heading2 {
+            font-size: 36px;
+            font-weight: bold;
+            font-style: italic;
+            color: black;
+            border: 3px solid black;
+            padding: 10px;
+            background-color: white;
+            box-shadow:
+            4px 4px 0 #e0bc00,
+            -4px 4px 0 yellow,
+            4px -4px 0 yellow,
+            -4px -4px 0 yellow;
+            
+        }
+        .heading3 {
+            font-size: 24px;
+            font-weight: normal;
+            color: black;
+            text-decoration: underline;
+            text-align: right;
+            font-family: "Times New Roman", Times, serif;
+            margin-top: 20px;
+
+    </style>
+</head>
+<body>
+    <div class="heading1-container">
+        <div class="line"></div>
+        <h1 class="heading1">This is heading 1</h1>
+    </div>
+    <h2 class="heading2">This is heading 2</h2>
+    <h3 class="heading3">This is heading 3</h3>
+</body>
+</html>
+
